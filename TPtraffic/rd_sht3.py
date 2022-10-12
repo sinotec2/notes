@@ -15,7 +15,7 @@ nam_v=['Lvolume','Lratio','Mvolume','Mratio','Svolume','Sratio','PCU','PHF']
 v=[]
 for iv in xrange(8):            
     v.append([])
-note=['zhanming','zhan','shixiangshu']
+note=['zhanming','zhan','shixiangshu'] #站名、站、時相數
 for fname in s:
     yr=int(fname.split('_')[1])+90+1911
     if fname.split('.')[1]=='htm':
@@ -134,7 +134,7 @@ d={'year':year,'time':time,'dirn':dirn,'name':name,'road':road}
 for iv in xrange(8):
     d.update({nam_v[iv]:v[iv]})
 df=DataFrame(d)
-for i in xrange(len(df)):
+for i in xrange(len(df)): #每列確認橫向綜合非為0，如果各個車種流量皆為0，則刪除該筆紀錄。
     sm=0.
     for j in nam_v:
         try:
