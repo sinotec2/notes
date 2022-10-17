@@ -11,7 +11,7 @@ modify_date: 2022-10-14 16:08:46
 ---
 
 ## [勤崴國際科技](https://www.kingwaytek.com/index.html)
-  - 勤崴國際科技專注於電子地圖製作及GIS系統開發，在電子地圖市場約有七成的市佔率。我們將電子地圖應用於LBS(適地性服務)，以消費者本人為中心，提供周邊吃喝玩樂之生活資訊為發想，於2009年推出連網導航軟體「樂客導航王」及行人導航「樂客轉乘通」轉乘導引，均獲得市場上廣大迴響與獎項，目前App已累計超過六百五十萬用戶。
+  - 勤崴國際科技專注於電子地圖製作及GIS系統開發，在電子地圖市場約有七成的市佔率。我們將電子地圖應用於LBS(適地性服務Location-Based Service，LBS)，以消費者本人為中心，提供周邊吃喝玩樂之生活資訊為發想，於2009年推出連網導航軟體「樂客導航王」及行人導航「樂客轉乘通」轉乘導引，均獲得市場上廣大迴響與獎項，目前App已累計超過六百五十萬用戶。
   勤崴成立，專注於電子地圖製作及GIS系統開發，建置全台最完整之地圖資料庫
 
 ### 發展歷程  
@@ -34,3 +34,8 @@ modify_date: 2022-10-14 16:08:46
 
 ### Google Map代理商勤崴淨利創新高，憑什麼獨霸台灣圖資市場？
 - 2021年營收：3.44億元、EPS：1.09元([遠見](https://www.gvm.com.tw/article/88746))
+
+## remote sensing water quality monitoring
+- [Wisconsin Department of Natural Resources](https://dnr.wisconsin.gov/topic/lakes/clmn/remotesensing)
+- [LAKES AND AQUATIC INVASIVE SPECIES (AIS) MAPPING TOOL](https://dnr.wisconsin.gov/topic/Lakes/Viewer)
+  - [viewer](https://dnrmaps.wi.gov/H5/?viewer=Lakes_AIS_Viewer)
