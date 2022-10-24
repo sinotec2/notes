@@ -27,8 +27,11 @@ modify_date: 2022-10-19 15:18:49
 ### IoT及微型感測
 - [台南布置移動式水質感測器 工廠放流水難逃法眼 @環境資訊中心](https://e-info.org.tw/node/229044)
 - [移動式水質感測器運用5G資通訊、AI技術等，監測pH值、導電度、溫度、溶氧等數值，每分鐘上傳至環保署水科技物聯網應用平台](https://e-info.org.tw/node/229044)
-
-
+- [Xylem Vue, Presentation from the Dubai Environmental Monitoring Workshop 2022](https://www.xylem.com/en-gp/about-xylem/newsroom/events/coastal-water-quality-monitoring-modeling-predictions/)
+  - Featured Products from the Presentation:
+    - YSI EXO Series Sonde Multiparameter Water Quality Sonde
+    - YSI Mini VPS - Vertical Profiling System High Resolution Vertical Water Quality Column Measurements
+    
 ## Thesis and student's Competetion
 ### 中華大學
 - 土木與工程資訊系、陳莉教授
