@@ -124,20 +124,79 @@ USDAARS）的 Jeff Arnold 博士所開發，是一個具有物理機制，須參
 - 本研究以水足跡評估方法作為基礎，結合SWAT和 TaiWAP模式進行流域水足跡模擬，並建立再生水廠建設的衝擊與效益的評估流程，選定中部大甲溪流域及臺中水湳再生水工程做為研究案例，對再生水廠進行水足跡評估，繼以流域水足跡永續性作為指標，評估再生水廠在氣候變遷情境下的供水效益。
 - 研究結果顯示，氣候變遷所造成的降雨型態改變將會衝擊大甲溪流域的藍水、綠水與灰水資源，藍水與綠水稀缺性將會在未來情境的3-5月有明顯上升，水污染程度將會在2月大幅度上升。比較流域藍水稀缺性在不同情境下的增減量，氣候變遷造成的稀缺性增量最大達203%。
 - 顯示若以流域永續性的角度來看，再生水供水對藍水稀缺性減量效益很小；若以經濟效益來看，由於大甲溪流域在未來情境缺水率高，加上水湳再生水廠供水對象為產值較高的中部科學園區，經濟效益較為明顯。水湳再生水廠的水足跡盤查結果顯示，水足跡貢獻來源主要為灰水足跡，而能源為藍水足跡貢獻的主要來源；將再生水廠的水足跡與無再生水廠情境相比，在有再生水廠的情境下，每月可以減少約20萬噸的水足跡。
-- [Abbaspour et al. 2015][Abbaspour et al. 2015]
+- A continental-scale hydrology and water quality model for Europe([Abbaspour et al. 2015][Abbaspour et al. 2015])
   - 模擬了全歐陸流域之SWAT，包括每條河流的流量、氮負荷及作物產量，可以做為大尺度模擬校正及不確定性分析的作業參考。
   - 次流域之藍水、綠水模擬。
   - 優化SWAT-CUP之平行化與結果展示。
+- Modelling hydrology and water quality in the pre-alpine/alpine Thur watershed(Swiss) using SWAT([Abbaspour et al. 2007][Abbaspour et al. 2007])
+  - Model calibration and uncertainty analysis were performed with SUFI-2 (Sequential Uncertainty FItting Ver. 2), which was interfaced with SWAT using the generic iSWAT program. 
+  - Two measures were used to assess the goodness of calibration: 
+    - (1) the percentage of data bracketed by the 95% prediction uncertainty calculated at the 2.5 and 97.5 percentiles of the cumulative distribution of the simulated variables, and 
+    - (2) the d-factor, which is the ratio of the average distance between the above percentiles and the standard deviation of the corresponding measured variable. 
+    - These statistics showed excellent results for discharge and nitrate and quite good results for sediment and total phosphorous.
 
-
-
-[陳艾琳2020]: <https://hdl.handle.net/11296/97tpb3> "陳艾琳,闕蓓德 (2020). 以水足跡指標建立氣候變遷情境下之再生水廠效益評估方法 環境工程學研究所. 國立臺灣大學, 台北市."
 李佳穎,余化龍 (2018). 應用SWAT模式結合最大熵法模擬灌溉配水過程–以石門灌區為例 生物環境系統工程學研究所. 國立臺灣大學, 台北市.
 闕亦吟,范致豪 (2018). 河川中懸浮固體的流布對水體與底泥中重金屬銅傳輸的影響 生物環境系統工程學研究所. 國立臺灣大學, 台北市.
 張祉凱,譚義績 (2017). 發展複合型地下水數值模式評析地下水資源開發及海水入侵 生物環境系統工程學研究所. 國立臺灣大學, 台北市.
 陳珮琦,林裕彬 (2017). 氣候變遷與土地利用變遷對水文服務的影響-以大屯溪流域為例 生物環境系統工程學研究所. 國立臺灣大學, 台北市.
 [林子平(2016)]: <https://hdl.handle.net/11296/zwf42z> "林子平,林裕彬 (2015). 土地與氣候變遷情境對流量之影響-以大屯溪流域為例 生物環境系統工程學研究所. 國立臺灣大學, 台北市."
 馬依伊,吳先琪 (2016). 氣候變遷及極端氣候事件對亞熱帶水庫水質影響之研究 環境工程學研究所. 國立臺灣大學, 台北市.
+
+### 生工系江莉琦教授及其團隊
+#### 探討SWAT模式應用於台灣水田水文模擬之適宜性([黃俊壹2022][黃俊壹2022])
+- 桃園市為北台灣第二大水稻生產區，其中，南崁溪流域為重要水稻灌區之一，緻密的灌溉渠道網絡提供該地區穩定的灌溉水源。目前國內在水田灌溉管理操作之研究中，尚未有利用水文模式評估水田灌溉管理策略對整體流域之水資源影響，而在使用模式模擬研究進行前，應優先評估模式應用於研究區域是否適用。因此，本研究將利用SWAT水文模式對南崁溪流域進行水文模擬，透過比較灌溉排水操作、評估水田水文特性模擬結果、計算水田之水平衡等，以了解水文模式SWAT模擬水田之水文機制，並評估模式應用於臺灣兩期作水田水文模擬之適宜性分析。
+- 本研究設定研究區域為南崁溪主流及上游茄苳溪、大檜溪流域，研究時間為2009年至2013年兩期稻作。
+- 本研究使用SWAT 2012模式，並以壺洞(Pothole)設定來模擬水田型態。
+  - 為模擬真實水田灌溉面積，本研究以2015 年第二次國土調查圖資為基礎，對照實際水田灌溉面積，建立整合土地使用分類之判斷流程。
+  - 模式中所設定之灌溉水量，採用農田水利署桃園、石門管理處提供之灌溉統計資料，經彙整所屬小組之不同耕作期灌溉水量，設定計畫灌溉水量，
+  - 測試模式之壺洞機制，包括:灌溉/排水情境(測試項目一)、壺洞犁底層設定(測試項目二)。
+  - SWAT模式水文演算法主要為壺洞產水量之水平衡觀點，透過模式理論水文公式可計算理論壺洞產水量，並比對模式模擬結果，以判斷是否達到水平衡，後續檢視模式反映水田水文變化趨勢之準確度。
+  - 透過設定之「傳統灌溉」與「自動灌溉」等灌溉方法，分析水文特性變化。比較SWAT壺洞模式及SWAT-Paddy模式之模擬結果，評估模式演算合理性，並對其缺陷提出改善建議。
+- 研究結果顯示，透過土地使用分類整合，模式模擬之水田面積可達約70 %計畫灌溉面積，且空間相關性良好(R2 = 0.82)、均方根誤差(RMSE)為25.46公頃。
+  - 在測試項目一:多種灌溉/排水情境之河川流量模擬結果顯示，透過蓄/排水操作可模擬水田水量之變化，且可回推研究區域內之實際灌排情況，但在設定排水日流量明顯高估。
+  - 在測試項目二:壺洞犁底層設定之河川流量模擬結果顯示，本研究建立「以土壤深度作為犁底層深度」與「固定6,000 mm犁底層深度」兩種情境進行模擬，
+    - 結果顯示以土壤深度作為犁底層深度之情境可有效蓄水，完整呈現水田之水文特性，
+    - 但在固定6,000 mm犁底層深度之情境因為具有強大土壤入滲作用，使壺洞蓄水量偏少，其模擬水田水文特性之代表性較差。分析壺洞水平衡之模擬時，利用比較理論計算產水量與模式模擬產水量結果，於固定6,000 mm犁底層深度之情境，其分析結果相符，證實水平衡理論成立。
+    - 但在以土壤深度作為犁底層深度之情境，可以觀察到壺洞模式模擬結果未能完整讀取壺洞產生之地表逕流補注至河川的水量，導致低估理論計算產水量；且理論計算產水量與模式模擬產水量之差值與降雨量有相似趨勢，顯示壺洞模式在降雨逕流關係有修正之必要性。
+  - 在流量模擬方面，SWAT模式之傳統灌溉及自動灌溉的初始模擬為滿意的，其R2分別為0.64及0.78，模式經參數率定後，傳統灌溉(率定期間: R2=0.7；驗證期間: R2=0.79)與自動灌溉(率定期間: R2=0.82；驗證期間: R2=0.85)均有不錯的模擬表現。
+    - 然而，SWAT-Paddy模式模擬之流量結果，有出現河川流量突增之異常現象，經多次測試及查證，推測可能因不同SWAT模式版本內部之流量演算法差異所導致。
+    - 在「傳統灌溉」與「自動灌溉」的模擬結果中，傳統灌溉的產水量普遍較高，而自動灌溉的壺洞蓄水量相對較大，反應傳統灌溉會因為人為灌溉、排水操作產生明顯水文變化。綜觀SWAT模式運用壺洞模擬水田之結果分析，顯示模式能呈現水田特殊水文特性，但對於細部水文演算法仍缺乏精準參數設定及模式理論。
+    - 因此，在使用 SWAT 模式進行模擬時，應參考實際灌區之灌溉水源及排水設施、優化農業操作參數之設定，並配合實際水田灌溉管理操作與期程，才可更合理模擬流域之水田水文。
+  - 針對後續SWAT模式改善，本研究建議
+    - 分析水田水平衡時，應改良模式在壺洞地表逕流補注河川流量之輸出結果，以提高水文模式水田水文模擬之適宜性；
+    - SWAT-Paddy模式方面，應整合不同版本之流量演算法，比對流量發生異常之條件並加以改善。
+- Analysis of water balance by surface–groundwater interaction using the SWAT model for the Han River basin, South Korea([Ahn and Kim 2018][Ahn and Kim 2018])
+  - Han River basin (34,148 km<sup>2</sup>), The model was established considering 4 multipurpose dams and 3 multifunction weirs.
+  - The simulation results revealed the impact of surface–groundwater exchange fluxes on the water balance and baseflow by evaluating the vertical water budget and horizontal water transfer. 
+    - Evapotranspiration in the surface and return flows from the shallow aquifer for the dry season was estimated to be 29 and 10% higher than for the wet season, respectively. 
+    - Percolation’s role was also significant, providing approximately 24% of the annual groundwater recharge to shallow aquifers in the rainy season. 
+      - On average, the February to August period (A) was characterized by a net flux of infiltration into the groundwater. 
+      - For the September to January period (B), the proportion of groundwater flow into the river of the basin was nearly balanced by a slight increase in surface water infiltration. 
+      - During period A of average surface water infiltration into the groundwater, the net groundwater recharge was positive and up to 20% of the infiltration during this period resulted from groundwater recharge. - These results showed that groundwater recharge is strongly affected by the surface water and groundwater interactions.
+- SWAT-Paddy ([Dash et al. 2020][Dash et al. 2020])
+- Applying SWAT for TMDL programs to a small watershed containing rice paddy fields ([Kang et al. 2006][Kang et al. 2006])
+  - apply SWAT to develop total maximum daily load (TMDL) programs for a small - total maximum daily load system (TOLOS), AVSWAT, GIS and remote sensing (RS), was incorporated with the SWAT model to simulate water balance and water quality from irrigated paddy fields. 
+  - Model parameters related to hydrology and water quality were calibrated and validated by comparing model predictions with the field data collected for 4 years. 
+  - The results indicated that the simulated runoff and water quality values were acceptably close to the observed data. Water quality parameters also appeared to be reasonably comparable to the field data. The applicability of the system for TMDL development was tested in terms of TMDL allocations and the redistribution of load reductions to 23 sub-areas within the watershed. - The results demonstrated that the urbanized subwatershed #2, with residences and other community activities, required the largest allocation of road reduction. 
+  - TOLOS thus appears to be a useful tool for planning TMDL for a small watershed including rice paddies in Korea.
+
+[Ahn and Kim 2018]: <https://doi.org/10.1007/s10333-018-0647-x> "Ahn, S.R. and Kim, S.J. (2018). Analysis of water balance by surface–groundwater interaction using the SWAT model for the Han River basin, South Korea. Paddy and Water Environment 16 (3):543–560. doi:10.1007/s10333-018-0647-x."
+[Dash et al. 2020]: <> "Dash, S.S., Sahoo, B., and Raghuwanshi, N.S. (2020). A novel embedded pothole module for Soil and Water Assessment Tool (SWAT) improving streamflow estimation in paddy-dominated catchments. Journal of Hydrology 588:125103. doi:10.1016/j.jhydrol.2020.125103."
+[Kang et al. 2006]: <https://www.sciencedirect.com/science/article/pii/S037837740500106X> "Kang, M.S., Park, S.W., Lee, J.J., and Yoo, K.H. (2006). Applying SWAT for TMDL programs to a small watershed containing rice paddy fields. Agricultural Water Management 79 (1):72–92. doi:10.1016/j.agwat.2005.02.015."
+
+[黃俊壹2022]: <http://dx.doi.org/10.6342/NTU202200393> "黃俊壹,江莉琦 (2022). 探討SWAT模式應用於台灣水田水文模擬之適宜性 臺灣大學生物環境系統工程學研究所學位論文. 國立臺灣大學."
+
+
+```
+吳蕙雯,江莉琦 (2016). 應用SWAT模式模擬來社溪集水區土砂與逕流之產出 水土保持學系所. 國立中興大學, 台中市.
+廖啟鈞,江莉琦 (2020). SWAT修正模式應用於台灣多流域之輸砂模擬適宜性評估 土木與防災工程學系碩士班. 國立聯合大學, 苗栗縣.
+施品智,江莉琦 (2018). 非點源汙染與氣候變遷對集水區水質之影響評估 土木與防災工程學系碩士班. 國立聯合大學, 苗栗縣.
+林子平; 連宛渝; 林裕彬; 江莉琦 (2016). 土地及氣候變遷情境對流量之影響. 臺灣水利 64 (3):52–65.
+盧至美,江莉琦 (2018). 整合TUSLE於SWAT模式於小型山區集水區之輸砂模擬-以陳有蘭溪為例 土木與防災工程學系碩士班. 國立聯合大學, 苗栗縣.
+莊翊廷,江莉琦 (2018). 評估土地利用變遷與自然擾動對山區集水區之影響 土木與防災工程學系碩士班. 國立聯合大學, 苗栗縣.
+許瑋哲,江莉琦 (2017). 評估有機農業活動對苗栗後龍溪上游 集水區水質之影響 土木與防災工程學系碩士班. 國立聯合大學, 苗栗縣.
+陳昱愷,江莉琦 (2020). 中港溪集水區之水庫操作模式與非點源污染影響評估 土木與防災工程學系碩士班. 國立聯合大學, 苗栗縣.
+```
 
 - Don Comis(2010)[Water Quality Model Passes Another Test (SWAT)](https://www.ars.usda.gov/news-events/news/research-news/2010/water-quality-model-passes-another-test/)
 
@@ -266,3 +325,5 @@ plot(q_obs, type = 'l')
 [Santhi et al. 2001]: <https://www.researchgate.net/publication/227641065_Validation_of_the_SWAT_Model_on_a_Large_River_Basin_with_Point_and_Nonpoint_Sources> "Santhi, C., Arnold, J., Williams, J.R., Dugas, W.A., Srinivasan, R., and Hauck, L.M. (2001). Validation of the SWAT Model on a Large River Basin with Point and Nonpoint Sources. JAWRA Journal of the American Water Resources Association 37:1169–1188. doi:10.1111/j.1752-1688.2001.tb03630.x."
 [Singh et al. 2004]: <https://swat.tamu.edu/media/90101/singh.pdf> "Singh, J., Knapp, H.V., and Demissie, M. (2004). Hydrologic Modeling of the Iroquois River Watershed Using HSPF and SWAT (No. Illinois State Water Survey Contract Report 2004-08.). the Illinois Department of Natural Resources and the Illinois State Geological Survey, Illinois State."
 [Abbaspour et al. 2015]: <https://www.sciencedirect.com/science/article/pii/S0022169415001985> "Abbaspour, K.C., Rouholahnejad, E., Vaghefi, S., Srinivasan, R., Yang, H., and Kløve, B. (2015). A continental-scale hydrology and water quality model for Europe: Calibration and uncertainty of a high-resolution large-scale SWAT model. Journal of Hydrology 524:733–752. doi:10.1016/j.jhydrol.2015.03.027."
+[Abbaspour et al. 2007]: <https://www.sciencedirect.com/science/article/pii/S0022169406004835> "Abbaspour, K.C., Yang, J., Maximov, I., Siber, R., Bogner, K., Mieleitner, J., Zobrist, J., and Srinivasan, R. (2007). Modelling hydrology and water quality in the pre-alpine/alpine Thur watershed using SWAT. Journal of Hydrology 333 (2):413–430. doi:10.1016/j.jhydrol.2006.09.014."
+[陳艾琳2020]: <https://hdl.handle.net/11296/97tpb3> "陳艾琳,闕蓓德 (2020). 以水足跡指標建立氣候變遷情境下之再生水廠效益評估方法 環境工程學研究所. 國立臺灣大學, 台北市."
