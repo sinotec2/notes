@@ -179,11 +179,30 @@ USDAARS）的 Jeff Arnold 博士所開發，是一個具有物理機制，須參
   - Model parameters related to hydrology and water quality were calibrated and validated by comparing model predictions with the field data collected for 4 years. 
   - The results indicated that the simulated runoff and water quality values were acceptably close to the observed data. Water quality parameters also appeared to be reasonably comparable to the field data. The applicability of the system for TMDL development was tested in terms of TMDL allocations and the redistribution of load reductions to 23 sub-areas within the watershed. - The results demonstrated that the urbanized subwatershed #2, with residences and other community activities, required the largest allocation of road reduction. 
   - TOLOS thus appears to be a useful tool for planning TMDL for a small watershed including rice paddies in Korea.
+- Optimization of SWAT-Paddy([Ouyang et al., 2020][Ouyang et al., 2020])
+  - SWAT-P performs better in the soil water simulation (RMSE = 24.22 mm, smaller than 104.63 mm of SWAT). 
+  - The monthly diffuse nitrogen loadings simulated by SWAT-P are within a reasonable range and close to the monitored nitrate loads in 2011 and 2012. 
+  - SWAT-P represents the ponding water depth dynamics during the rice growing period. 
+  - The original SWAT overestimates the diffuse pollution loads in the freeze-thaw period. 
+  - SWAT-P has better performance for water cycles and diffuse pollution load simulations in watersheds with large rice paddy fields.
+- Examination of the water balance of irrigated paddy fields in SWAT 2009([Sakaguchi et al., 2014][Sakaguchi et al., 2014])
+  -  the water balance of irrigated paddy fields in SWAT was examined for a small watershed where actual daily irrigation data were available. 
+  - Two approaches available in SWAT to calculate hydrology in a watershed containing paddy fields, 
+    - the curve number procedure and 
+    - the pothole module, were applied with the regional paddy rice management standard.
+  - The water balance components estimated using the pothole module were significantly different from the actual hydrology in paddy fields. 
+  - The estimated percolation of water was zero on most days even under ponded water conditions. 
+    - Any of the percolation, surface runoff and evapotranspiration (ET) was estimated to be zero during the drainage period. The estimated ET was too small on a number of days during the ponding period. 
+    - As a result, the watershed-scale Nash-Sutcliffe model efficiency (NSE) for the daily river flow rate at the outlet of the watershed was less than zero, indicating low model efficiency. 
+  - On the contrary, no significant problems were apparently found in the estimated water balance components in paddy fields using the curve number procedure, yielding a higher NSE value of 0.58 at the watershed scale. However, the curve number procedure that in principle cannot simulate the ponded water conditions is obviously impossible to use to reflect the various paddy water management scenarios in the field.
+  - In conclusion, neither of these two approaches is suitable for simulating paddy field hydrology, indicating the need for the development of a paddy module in SWAT.
 
 [Ahn and Kim 2018]: <https://doi.org/10.1007/s10333-018-0647-x> "Ahn, S.R. and Kim, S.J. (2018). Analysis of water balance by surface–groundwater interaction using the SWAT model for the Han River basin, South Korea. Paddy and Water Environment 16 (3):543–560. doi:10.1007/s10333-018-0647-x."
 [Dash et al. 2020]: <> "Dash, S.S., Sahoo, B., and Raghuwanshi, N.S. (2020). A novel embedded pothole module for Soil and Water Assessment Tool (SWAT) improving streamflow estimation in paddy-dominated catchments. Journal of Hydrology 588:125103. doi:10.1016/j.jhydrol.2020.125103."
 [Kang et al. 2006]: <https://www.sciencedirect.com/science/article/pii/S037837740500106X> "Kang, M.S., Park, S.W., Lee, J.J., and Yoo, K.H. (2006). Applying SWAT for TMDL programs to a small watershed containing rice paddy fields. Agricultural Water Management 79 (1):72–92. doi:10.1016/j.agwat.2005.02.015."
-
+[Ouyang et al., 2020]: <https://www.sciencedirect.com/science/article/pii/S1364815219309715> "Ouyang, W., Wei, P., Gao, X., Srinivasan, R., Yen, H., Xie, X., Liu, L., Liu, H. (2020). Optimization of SWAT-Paddy for modeling hydrology and diffuse pollution of large rice paddy fields. Environmental Modelling & Software 130, 104736. https://doi.org/10.1016/j.envsoft.2020.104736"
+[Sakaguchi et al., 2014]: <https://doi.org/10.1080/00380768.2014.919834> "Sakaguchi, A., Eguchi, S., Kasuya, M. (2014). Examination of the water balance of irrigated paddy fields in SWAT 2009 using the curve number procedure and the pothole module. Soil Science and Plant Nutrition 60, 551–564. https://doi.org/10.1080/00380768.2014.919834"
+[Sakaguchi et al., 2014b]: <https://www.sciencedirect.com/science/article/pii/S0378377414000250> "Sakaguchi, A., Eguchi, S., Kato, T., Kasuya, M., Ono, K., Miyata, A., Tase, N. (2014). Development and evaluation of a paddy module for improving hydrological simulation in SWAT. Agricultural Water Management 137, 116–122. https://doi.org/10.1016/j.agwat.2014.01.009"
 [黃俊壹2022]: <http://dx.doi.org/10.6342/NTU202200393> "黃俊壹,江莉琦 (2022). 探討SWAT模式應用於台灣水田水文模擬之適宜性 臺灣大學生物環境系統工程學研究所學位論文. 國立臺灣大學."
 
 
