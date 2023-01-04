@@ -1,7 +1,7 @@
 
 ## Civil Engneer(Construction) Designer software
 
--  www.civildesigner.com/sewer[^1]
+- www.civildesigner.com/sewer[^1]
 
 ```bash
 Key Design Features: 
@@ -18,6 +18,6 @@ Accurate 3D rendering of node structures
 Analyses flow, overflow, capacity, velocity and flow depth
 ```
 
-[^1]:  Civil Designer – 30 years of developing civil infrastructure design software for engineering professionals, [Civil Designer][cd]
+[^1]: Civil Designer – 30 years of developing civil infrastructure design software for engineering professionals, [Civil Designer][cd]
 
 [cd]: <https://www.civildesigner.com/sewer/> "The leader in integrated civil infrastructure design"
